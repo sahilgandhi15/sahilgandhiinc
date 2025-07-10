@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
-import HomePage from './homePage.jsx';
-import NavBar from './headerComponent/navBar.jsx';
-import Footer from './footerComponent/footer.jsx';
+import HomePage from './HomePage.jsx';
+import NavBar from './HeaderComponent/NavBar.jsx';
+import Footer from './FooterComponent/Footer.jsx';
 
 class App extends Component {
   render() {
